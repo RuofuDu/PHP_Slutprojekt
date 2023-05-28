@@ -1,0 +1,5 @@
+My notes
+
+SQL preview: create table "user"
+
+CREATE TABLE `forum`.`user` (`id` INT NOT NULL AUTO_INCREMENT , `email` VARCHAR(255) NOT NULL , `password` VARCHAR(255) NOT NULL , `creation_time` DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP , PRIMARY KEY (`id`), UNIQUE (`email`)) ENGINE = InnoDB; 
