@@ -1,5 +1,5 @@
 <?php
-echo "I'm here: signup.php <br>";
+echo "I'm here:<br>";
 require_once 'db_connection.php';
 
 session_start();
@@ -34,5 +34,3 @@ if ($stmt->execute()) {
     header("Location: error.php");
     exit();
 }
-
-?>
