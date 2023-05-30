@@ -1,7 +1,7 @@
 <?php
 // db_connection.php
 
-// Database configuration
+// Database configura
 $dbHost = 'localhost';
 $dbUser = 'root';
 //$dbPass = 'rf_Du@23_aVa';
